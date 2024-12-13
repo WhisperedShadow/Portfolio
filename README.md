@@ -62,14 +62,7 @@ Ensure you have the following installed:
    MAILJET_API_KEY=your-mailjet-api-key
    MAILJET_SECRET_KEY=your-mailjet-secret-key
    ```
-
-5. **Run the backend server**:
-   ```bash
-   cd backend
-   node server.js
-   ```
-
-6. **Run the frontend**:
+5. **Run the frontend**:
    ```bash
    cd frontend
    npm start
