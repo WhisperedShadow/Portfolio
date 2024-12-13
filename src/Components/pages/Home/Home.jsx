@@ -75,7 +75,7 @@ const Home = () => {
         <h1>Durai Pon Singh</h1>
         <ul className="h-ul">
           <li className="h-li">Student</li>
-          <li className="h-li">Auntodidact</li>
+          <li className="h-li">Autodidact</li>
           <li className="h-li">Web Developer</li>
         </ul>
         <p>
