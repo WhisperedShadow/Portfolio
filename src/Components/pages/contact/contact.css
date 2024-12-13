@@ -1,26 +1,18 @@
-.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: var(--prime-col);
-}
-
 .contact * {
   color: var(--sec-col);
 }
 
-.c-con h1{
+.c-con h1 {
   font-family: var(--prime-f);
 }
 
-.c-con p{
+.c-con p {
   margin: 10px 0 30px 0;
 }
 
 .c-con {
-  width: 70%;
-  background-color: var(--prime-col);
+  width: 75%;
+  background-color: transparent;
   margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
@@ -35,31 +27,40 @@
   gap: 10px;
 }
 
-.contact label{
+.contact label {
   width: 100%;
   display: grid;
   grid-template-columns: 3fr 10fr;
 }
 
-.contact input, .contact textarea, .contact select, .contact select option {
+.contact input,
+.contact textarea,
+.contact select,
+.contact select option {
   width: 80%;
   height: 30px;
   border: none;
   outline: none;
-  background-color: var(--prime-col);
-  color: var(--sec-col); 
+  background-color: transparent;
+  color: var(--sec-col);
   border-bottom: solid var(--sec-col);
 }
 
-.contact textarea{
+.contact select option{
+  background-color: var(--prime-col);
+}
+
+.contact textarea {
   border: solid var(--sec-col);
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
   padding: 5px;
 }
 
@@ -85,8 +86,8 @@ input:focus, textarea:focus{
   background-color: var(--sec-col);
 }
 
-@media (max-width:850px) {
-  .contact label{
+@media (max-width: 850px) {
+  .contact label {
     grid-template-columns: 1fr;
   }
 }

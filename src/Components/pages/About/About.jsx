@@ -1,7 +1,7 @@
 import "./about.css";
 const About = () => {
   return (
-    <div className="about">
+    <section className="about">
       <div className="about-con fade-in">
         <h1>Let&apos;s Get to Know Me! 🌱👨‍💻</h1>
 
@@ -78,7 +78,7 @@ const About = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

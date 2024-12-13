@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <section className="contact">
       <div className="c-con">
         <h1>Let’s Create Something Amazing Together! 😁</h1>
         <p>
@@ -124,7 +124,7 @@ const Contact = () => {
 
         {responseMessage && <p>{responseMessage}</p>}
       </div>
-    </div>
+    </section>
   );
 };
 

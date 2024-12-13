@@ -1,14 +1,6 @@
-.education {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--prime-col);
-}
-
 .edu-con {
   width: 70%;
-  background-color: var(--prime-col);
+  background-color: transparent;
   margin: 50px 0;
   color: var(--sec-col);
 }
@@ -16,9 +8,8 @@
 .edu-sec {
   height: 100%;
   width: 100%;
-  background-color: var(--prime-col);
+  background-color: transparent;
 }
-
 
 .edu-con h1 {
   font-family: var(--prime-f);
@@ -39,5 +30,8 @@
   float: right;
 }
 
-
-
+@media (max-width:800px) {
+  .edu-img{
+    float: none;
+  }
+}

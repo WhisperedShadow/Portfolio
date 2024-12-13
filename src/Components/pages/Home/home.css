@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100%;
   background-color: var(--prime-col);
+  background-image: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +33,6 @@
 .hero-con * {
   z-index: 10;
 }
-
 
 .h-i {
   position: fixed;
@@ -101,6 +101,16 @@
 }
 
 @media (max-width: 850px) {
+  .hero {
+    background-image: url("/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero-con {
+    background-color: transparent;
+  }
+
   .hero .hero-img {
     display: none;
   }
@@ -108,5 +118,16 @@
     width: 80%;
     left: 0;
   }
-}
 
+  .hero-con h1 {
+    font-size: var(--xxl);
+  }
+
+  .hero-con ul li {
+    font-size: var(--l);
+  }
+
+  .h-cta a {
+    font-size: var(--s);
+  }
+}

@@ -29,6 +29,17 @@ body {
   background-color: black;
 }
 
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-image: url("/bg5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .a-ul {
   padding-left: 20px;
   list-style: none;

@@ -2,7 +2,7 @@ import "./education.css";
 
 const Education = () => {
   return (
-    <div className="education">
+    <section className="education">
       <div className="edu-con">
         <h1>My Learning Journey 📚🚀</h1>
         <div className="edu-sec scroll-animation-short">
@@ -118,7 +118,7 @@ const Education = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

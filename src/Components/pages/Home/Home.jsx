@@ -70,7 +70,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero-con fade-in">
         <h1>Durai Pon Singh</h1>
         <ul className="h-ul">
@@ -90,7 +90,7 @@ const Home = () => {
       <div className="h-i">
         <div className="hero-img" id="hero-img"></div>
       </div>
-    </div>
+    </section>
   );
 };
 

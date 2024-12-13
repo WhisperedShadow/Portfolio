@@ -83,7 +83,7 @@ const Skills = () => {
   
 
   return (
-    <div className="skills">
+    <section className="skills">
       <div className="s-con">
         <h1>What I Do Best 🔧💡</h1>
         <Skill name="Frontend Technologies" skills={frontendTechnologies} />
@@ -92,7 +92,7 @@ const Skills = () => {
         <Skill name="Web Development Tools & Libraries" skills={additionalTechnologies} />
         <Skill name="Emerging Technologies (In Progress)" skills={aiTechnologies} />
       </div>
-    </div>
+    </section>
   );
 };
 

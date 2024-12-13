@@ -17,7 +17,7 @@ const Projects = () => {
   ));
 
   return (
-    <div className="Projects">
+    <section className="Projects">
       <div className="projects-con">
         <h1>Welcome to My Projects! 🚀</h1>
         <p>
@@ -32,7 +32,7 @@ const Projects = () => {
         </p>
         <div className="p-container">{propprojects}</div>
       </div>
-    </div>
+    </section>
   );
 };
 
