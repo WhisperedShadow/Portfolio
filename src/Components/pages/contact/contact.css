@@ -1,0 +1,92 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--prime-col);
+}
+
+.contact * {
+  color: var(--sec-col);
+}
+
+.c-con h1{
+  font-family: var(--prime-f);
+}
+
+.c-con p{
+  margin: 10px 0 30px 0;
+}
+
+.c-con {
+  width: 70%;
+  background-color: var(--prime-col);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.c-con form {
+  padding: 20px 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact label{
+  width: 80%;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+}
+
+.contact input, .contact textarea, .contact select, .contact select option {
+  width: 80%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: var(--prime-col);
+  color: var(--sec-col); 
+  border-bottom: solid var(--sec-col);
+}
+
+.contact textarea{
+  border: solid var(--sec-col);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+input:focus, textarea:focus{
+  padding: 5px;
+}
+
+.contact textarea {
+  height: 30vh;
+}
+
+#submit {
+  width: fit-content;
+  color: var(--sec-col);
+  padding: 10px 10px 25px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--prime-col);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: solid var(--sec-col);
+}
+
+#submit:hover {
+  transform: scale(1.1);
+  color: var(--prime-col);
+  background-color: var(--sec-col);
+}
+
+@media (max-width:850px) {
+  .contact label{
+    grid-template-columns: 1fr;
+  }
+}

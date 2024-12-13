@@ -1,0 +1,46 @@
+.area {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.area h2 {
+  padding: 30px 0;
+  font-size: var(--xl);
+  color: var(--sec-col);
+}
+
+.skill-con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: 140px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  background-color: var(--sec-col);
+  color: var(--prime-col);
+  filter: brightness(0.2);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  &:hover {
+    filter: brightness(1);
+  }
+
+  & img {
+    height: 50%;
+  }
+  & p {
+    font-size: small;
+  }
+}

@@ -1,0 +1,24 @@
+.skills{
+    width: 100%;
+    position: absolute;
+    background-color: var(--prime-col);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-con{
+    width: 70%;
+    margin: 50px 0;
+    background-color: var(--prime-col);
+    display: flex;
+    flex-direction: column;
+}
+
+.s-con h1{
+    padding: 20px 0;
+    color: var(--sec-col);
+    font-size: var(--xxl);
+    font-family: var(--prime-f);
+}
+

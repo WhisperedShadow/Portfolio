@@ -1,0 +1,112 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--prime-col);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.hero-con {
+  display: flex;
+  position: relative;
+  left: -15%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background-color: var(--prime-col);
+  color: var(--sec-col);
+  font-size: var(--xxl);
+  gap: 10px;
+}
+
+.hero-con h1 {
+  font-family: var(--prime-f);
+  font-weight: 500;
+}
+
+.hero-con * {
+  z-index: 10;
+}
+
+
+.h-i {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.h-cta {
+  display: flex;
+  gap: 20px;
+}
+
+.h-cta a {
+  color: var(--sec-col);
+  padding: 10px;
+  font-size: var(--l);
+  border: solid var(--sec-col);
+  transition: all 0.25s;
+}
+
+.h-cta a:hover {
+  transform: scale(1.2);
+  border-radius: 15px;
+}
+
+.h-cta a:nth-child(1) {
+  color: var(--prime-col);
+  background-color: var(--sec-col);
+}
+
+.h-cta a:nth-child(2):hover {
+  color: var(--prime-col);
+  background-color: var(--sec-col);
+}
+
+.hero-img {
+  left: 25%;
+  background-color: var(--prime-col);
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.h-ul {
+  list-style: none;
+}
+
+.h-li {
+  position: relative;
+  padding-left: 50px;
+  font-size: var(--xl);
+  padding-top: 5px;
+}
+.h-li::before {
+  content: "🌐";
+  position: absolute;
+  left: 0;
+  font-size: var(--xl);
+}
+
+.hero-con p {
+  font-size: medium;
+  position: relative;
+  padding: 30px;
+}
+
+@media (max-width: 850px) {
+  .hero .hero-img {
+    display: none;
+  }
+  .hero .hero-con {
+    width: 80%;
+    left: 0;
+  }
+}
+

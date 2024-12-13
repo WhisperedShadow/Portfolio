@@ -1,0 +1,43 @@
+.education {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--prime-col);
+}
+
+.edu-con {
+  width: 70%;
+  background-color: var(--prime-col);
+  margin: 50px 0;
+  color: var(--sec-col);
+}
+
+.edu-sec {
+  height: 100%;
+  width: 100%;
+  background-color: var(--prime-col);
+}
+
+
+.edu-con h1 {
+  font-family: var(--prime-f);
+  font-size: var(--xxl);
+}
+
+.edu-sec h2 {
+  font-size: var(--xl);
+  margin: 50px 0 0 0;
+}
+
+.edu-sec p {
+  margin: 30px 0;
+}
+
+.edu-img {
+  width: 300px;
+  float: right;
+}
+
+
+

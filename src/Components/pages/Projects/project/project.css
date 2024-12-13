@@ -1,0 +1,72 @@
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.project img {
+  width: 40%;
+  height: auto;
+  border: solid var(--sec-col);
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.2);
+    border: solid var(--accent-col);
+  }
+}
+.p-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: var(--sec-col);
+}
+
+.p-con * {
+  margin: 10px 0;
+}
+
+.p-con a {
+  padding: 10px 15px;
+  width: fit-content;
+  color: var(--sec-col);
+  background-color: var(--prime-col);
+  border: solid var(--sec-col);
+  transition: all 0.5s;
+}
+
+.p-con a:hover {
+  border-radius: 10px;
+
+  transform: scale(1.2);
+}
+
+.project:nth-child(odd) {
+  flex-direction: row;
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 850px) {
+  .project {
+    gap: 50px;
+    border: solid var(--sec-col);
+  }
+
+  .project img {
+    width: 80%;
+  }
+
+  .project:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .project:nth-child(even) {
+    flex-direction: column;
+  }
+}

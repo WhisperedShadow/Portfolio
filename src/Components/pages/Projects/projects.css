@@ -1,0 +1,22 @@
+.Projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--prime-col);
+}
+
+
+.projects-con{
+    margin: 30px 0;
+    width: 70%;
+    background-color: var(--prime-col);
+    color: var(--sec-col);
+}
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 30px 0;
+}
