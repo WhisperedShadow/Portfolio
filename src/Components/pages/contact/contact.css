@@ -36,7 +36,7 @@
 }
 
 .contact label{
-  width: 80%;
+  width: 100%;
   display: grid;
   grid-template-columns: 3fr 10fr;
 }
