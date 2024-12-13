@@ -16,3 +16,8 @@
     font-family: var(--prime-f);
 }
 
+@media (max-width:800px) {
+    .skills{
+        background-image: url("/bg5.jpg");
+    }
+}
