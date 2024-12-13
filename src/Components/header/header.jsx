@@ -41,9 +41,6 @@ const Header = () => {
         <a href={import.meta.env.VITE_INSTA} target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <a href={`mailto:${import.meta.env.VITE_MAIL}`}>
-          <i className="fa-solid fa-envelope"></i>
-        </a>
         <a href={import.meta.env.VITE_FB} target="_blank">
           <i className="fa-brands fa-facebook"></i>
         </a>
