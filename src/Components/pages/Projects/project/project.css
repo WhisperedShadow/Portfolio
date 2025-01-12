@@ -53,7 +53,7 @@
 @media (max-width: 850px) {
   .project {
     gap: 50px;
-    border: 1px var(--sec-col);
+    border: 10px var(--sec-col);
   }
 
   .project img {
