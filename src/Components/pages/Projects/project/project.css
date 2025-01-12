@@ -8,9 +8,8 @@
 }
 
 .project img {
-  width: 40%;
+  width: 50%;
   height: auto;
-  border: solid var(--sec-col);
   transition: all 0.5s;
   &:hover {
     transform: scale(1.2);
