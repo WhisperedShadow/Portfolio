@@ -57,7 +57,7 @@
   }
 
   .project img {
-    width: 80%;
+    width: 100%;
   }
 
   .project:nth-child(odd) {
