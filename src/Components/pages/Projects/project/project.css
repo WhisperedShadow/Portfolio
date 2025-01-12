@@ -53,11 +53,11 @@
 @media (max-width: 850px) {
   .project {
     gap: 50px;
-    border: solid var(--sec-col);
+    border: 1px var(--sec-col);
   }
 
   .project img {
-    width: 100%;
+    width: 120%;
   }
 
   .project:nth-child(odd) {
