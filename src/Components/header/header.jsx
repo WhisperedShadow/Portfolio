@@ -30,6 +30,7 @@ const Header = () => {
         <a href="/skills">Skills</a>
         <a href="/projects">Projects</a>
         <a href="contact">Contact</a>
+        <a href="/Durai's-Resume.pdf" download={true}>My Resume</a>
       </div>
       <header>
         <a href={import.meta.env.VITE_GIT} target="_blank">
