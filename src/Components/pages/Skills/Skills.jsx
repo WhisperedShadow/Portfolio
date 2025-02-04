@@ -1,5 +1,7 @@
 import "./skills.css";
 import Skill from "./skill/skill.jsx";
+import { SkillsHelmet } from "../../cursor/SEO.jsx";
+
 const Skills = () => {
   let frontendTechnologies = [
     {
@@ -83,6 +85,8 @@ const Skills = () => {
   
 
   return (
+    <>
+    <SkillsHelmet />
     <section className="skills">
       <div className="s-con">
         <h1>What I Do Best 🔧💡</h1>
@@ -93,6 +97,7 @@ const Skills = () => {
         <Skill name="Emerging Technologies (In Progress)" skills={aiTechnologies} />
       </div>
     </section>
+    </>
   );
 };
 

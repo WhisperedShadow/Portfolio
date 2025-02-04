@@ -1,7 +1,10 @@
 import "./education.css";
+import { EducationHelmet } from "../../cursor/SEO";
 
 const Education = () => {
   return (
+    <>
+    <EducationHelmet />
     <section className="education">
       <div className="edu-con">
         <h1>My Learning Journey 📚🚀</h1>
@@ -119,6 +122,7 @@ const Education = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ContactHelmet } from "../../cursor/SEO";
 import "./contact.css";
 
 const Contact = () => {
@@ -46,6 +47,8 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <ContactHelmet />
     <section className="contact">
       <div className="c-con">
         <h1>Let’s Create Something Amazing Together! 😁</h1>
@@ -125,6 +128,7 @@ const Contact = () => {
         {responseMessage && <p>{responseMessage}</p>}
       </div>
     </section>
+    </>
   );
 };
 
