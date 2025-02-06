@@ -2,7 +2,6 @@ import "./App.css";
 import Header from "./Components/header/header.jsx";
 import Cursor from "./Components/cursor/cursor.jsx";
 import Routings from "./Components/Routes/Routings.jsx";
-import TawkToChat from "./Components/tawk/tawkChat.jsx";
 import { HelmetProvider } from "react-helmet-async";
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <>
       <Header />
       <Cursor />
-      <TawkToChat />
+      
       <HelmetProvider>
         <Routings />
       </HelmetProvider>
