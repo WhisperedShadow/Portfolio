@@ -76,7 +76,7 @@ const Home = () => {
         <ul className="h-ul">
           <li className="h-li">Student</li>
           <li className="h-li">Autodidact</li>
-          <li className="h-li">Web Developer</li>
+          <li className="h-li">Full Stack Developer</li>
         </ul>
         <p>
           &quot;The more that you read, the more things you will know. The more
