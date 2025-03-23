@@ -51,12 +51,14 @@ const Education = () => {
           </p>
         </div>
         <div className="edu-sec scroll-animation-short">
-        <img className="edu-img" src="/school2.png" alt="School Image" />
+
           <h2>Higher Secondary Education (Class 12)</h2>
           <h3>
             S.S.V. Hr. Sec. School (Bio-Maths Stream) <br />
             2020 – 2022
           </h3>
+        <img className="edu-img" src="/school2.png" alt="School Image" />
+          
          
           <p>
             Focused on integrating science and mathematics to develop analytical
