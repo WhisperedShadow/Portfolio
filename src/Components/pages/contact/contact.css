@@ -52,6 +52,7 @@
 
 .contact textarea {
   border: solid var(--sec-col);
+  resize:none;
 }
 
 input::placeholder,
