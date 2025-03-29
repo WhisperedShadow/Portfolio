@@ -44,3 +44,10 @@
     font-size: small;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .skill {
+    filter: brightness(1);
+    background-color: #eee;
+  }
+}
