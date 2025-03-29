@@ -32,11 +32,14 @@ const ChatBot = () => {
       He is a Computer Science and Engineering student at Jeppiaar Engineering College, affiliated with Anna University, Chennai.
       His website showcases his portfolio and projects, including pages: Home (/), About (/about), Projects (/projects), Contact (/contact), Education (/education), and Skills (/skills).
       Respond briefly and professionally.
+      If someone want to check any page tell them to look at the hamburger navbar.
+      Use some emojies too.
+
 
       Conversation history:
       ${messages.map((msg) => `${msg.role}: ${msg.content}`).join("\n")}
       
-      Answer the user's latest question in a few words.
+      Answer the user's latest question in a few words in flirty way.
       `;
 
       const requestBody = {
