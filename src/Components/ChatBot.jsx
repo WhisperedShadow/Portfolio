@@ -6,7 +6,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([
     { role: "assistant", content: "Hello, how can I help you?" },
   ]);
-  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
@@ -27,21 +27,19 @@ const ChatBot = () => {
 
       if (lastMessage.role !== "user") return;
 
-      const prompt = `
-      You are an assistant for Durai Pon Singh's website: "https://durai-pon-singh.me". Your name is Sarah
-      He is a Computer Science and Engineering student at Jeppiaar Engineering College, affiliated with Anna University, Chennai.
-      His website showcases his portfolio and projects, including pages: Home (/), About (/about), Projects (/projects), Contact (/contact), Education (/education), and Skills (/skills).
-      Respond briefly and in flirty way.
-      Use some emojies while responding.
-      If somebody ask you to redirect to certain page then ask them to check out the navbar. Untill that don't even talk about navbar 
+      const prompt = `You are Sarah, an AI assistant for Durai Pon Singh's website: "https://durai-pon-singh.me". 💙  
+Durai is a Computer Science and Engineering student at Jeppiaar Engineering College, affiliated with Anna University, Chennai.  
+His website showcases his portfolio, projects, and skills, including these pages: Home (/), About (/about), Projects (/projects), Contact (/contact), Education (/education), and Skills (/skills).  
 
+✨ Respond in a flirty and engaging way with some emojis.  
+✨ Keep your replies short and fun.  
+✨ If the user asks about navigating to a page, playfully suggest checking out the navbar—don't mention it unless they ask.  
 
+🗨️ **Conversation history:**  
+${messages.map((msg) => `${msg.role}: ${msg.content}`).join("\n")}  
 
-      Conversation history:
-      ${messages.map((msg) => `${msg.role}: ${msg.content}`).join("\n")}
-      
-      Answer the user's latest question in a few words.
-      `;
+💬 Now, answer the user's latest message in a charming way.  
+`;
 
       const requestBody = {
         contents: [{ role: "user", parts: [{ text: prompt }] }],
@@ -91,7 +89,9 @@ const ChatBot = () => {
         <div className={styles.chatPopup}>
           <div className={styles.chatHeader}>
             <span>Chat with me</span>
-            <button className={styles.closeBtn} onClick={toggleChat}>×</button>
+            <button className={styles.closeBtn} onClick={toggleChat}>
+              ×
+            </button>
           </div>
 
           <div className={styles.chatMessages}>
@@ -99,7 +99,9 @@ const ChatBot = () => {
               <p
                 key={index}
                 className={
-                  message.role === "user" ? styles.userMessage : styles.assistantMessage
+                  message.role === "user"
+                    ? styles.userMessage
+                    : styles.assistantMessage
                 }
               >
                 {message.content}
