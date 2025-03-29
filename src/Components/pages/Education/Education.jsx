@@ -1,5 +1,5 @@
 import "./education.css";
-import { EducationHelmet } from "../../cursor/SEO";
+import { EducationHelmet } from "../../SEO/SEO";
 
 const Education = () => {
   return (

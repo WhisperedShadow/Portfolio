@@ -1,7 +1,7 @@
 import "./projects.css";
 import Project from "./project/Project";
 import { useState, useEffect } from "react";
-import { ProjectsHelmet } from "../../cursor/SEO";
+import { ProjectsHelmet } from "../../SEO/SEO";
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);

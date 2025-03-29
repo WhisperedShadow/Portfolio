@@ -1,5 +1,5 @@
 import "./about.css";
-import { AboutHelmet } from "../../cursor/SEO";
+import { AboutHelmet } from "../../SEO/SEO";
 
 const About = () => {
   return (

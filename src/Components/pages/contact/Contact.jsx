@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ContactHelmet } from "../../cursor/SEO";
+import { ContactHelmet } from "../../SEO/SEO";
 import "./contact.css";
 
 const Contact = () => {

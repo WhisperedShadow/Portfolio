@@ -1,6 +1,6 @@
 import "./skills.css";
 import Skill from "./skill/skill.jsx";
-import { SkillsHelmet } from "../../cursor/SEO.jsx";
+import { SkillsHelmet } from "../../SEO/SEO.jsx";
 
 const Skills = () => {
   let frontendTechnologies = [
