@@ -39,7 +39,7 @@ const Skills = () => {
   const backendTechnologies = [
     {
       name: "Flask",
-      url: "https://static-00.iconduck.com/assets.00/programming-language-flask-icon-2048x1826-wf5k5ugs.png",
+      url: "https://www.vhv.rs/dpng/d/609-6093398_prog-flask-flask-python-icon-png-transparent-png.png",
       des: "Hands-on experience with the Flask web framework for building lightweight web applications, handling requests, and integrating databases.",
     },
     {
